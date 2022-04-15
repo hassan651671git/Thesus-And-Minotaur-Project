@@ -153,7 +153,7 @@ namespace TopLayer.LevelCreator
                 this.setCellsClickAction();
                 this.Thesus = new Thesus(this.Board, this.thesusView);
                 this.Minatour = new Minatour(this.Board, this.minotaurView, new PathCalculator());
-            }catch(Exception ex)
+            }catch(StackOverflowException ex)
             {
                 print(ex.Message);
             }

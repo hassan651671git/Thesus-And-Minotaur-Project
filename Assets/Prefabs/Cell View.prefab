@@ -366,6 +366,7 @@ MonoBehaviour:
   RightBlock: {fileID: 1860914472046805446}
   TopBlock: {fileID: 7268862216985711668}
   BottomBlock: {fileID: 6376645386740170022}
+  backGroundImage: {fileID: 0}
 --- !u!114 &6193444153782966433
 MonoBehaviour:
   m_ObjectHideFlags: 0
